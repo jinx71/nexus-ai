@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# env (never commit real secrets — only .env.example is tracked)
+.env
+client/.env
+server/.env
+.env.local
+.env.*.local
+
+# build output
+client/build/
+build/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# misc / editor
+.DS_Store
+.vscode/
+.idea/
+coverage/
