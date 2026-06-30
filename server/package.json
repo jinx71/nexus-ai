@@ -4,7 +4,7 @@
   "description": "Nexus AI — backend (Express + Mongoose). Proxies & streams LLM responses, JWT auth, usage metering.",
   "main": "src/server.js",
   "engines": {
-    "node": ">=16 <17"
+    "node": ">22"
   },
   "scripts": {
     "start": "node src/server.js",
